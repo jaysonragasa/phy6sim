@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+	xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	Shell.NavBarIsVisible="False"
+	x:Class="Phy6Sim.MainPage">
+
+	<ScrollView>
+		<VerticalStackLayout
+			Padding="30,0"
+			Spacing="20"
+			VerticalOptions="Center">
+
+			<Label
+				Text="Phy6Sim"
+				FontSize="32"
+				HorizontalOptions="Center" />
+
+			<Label
+				Text="Watch Physics Simulations"
+				FontSize="18"
+				HorizontalOptions="Center" />
+
+			<Button
+				x:Name="Sim1Button"
+				Text="1. Zero-Gravity Chamber"
+				Clicked="Sim1Button_Clicked"
+				HorizontalOptions="Fill" />
+
+			<Button
+				x:Name="Sim2Button"
+				Text="2. Liquid/Particle Sim"
+				Clicked="Sim2Button_Clicked"
+				HorizontalOptions="Fill" />
+
+			<Button
+				x:Name="Sim3Button"
+				Text="3. Ragdoll Playground"
+				Clicked="Sim3Button_Clicked"
+				HorizontalOptions="Fill" />
+
+			<Button
+				x:Name="Sim4Button"
+				Text="4. Chain/Rope Physics"
+				Clicked="Sim4Button_Clicked"
+				HorizontalOptions="Fill" />
+
+			<Button
+				x:Name="Sim5Button"
+				Text="5. Starfield Shooter"
+				Clicked="Sim5Button_Clicked"
+				HorizontalOptions="Fill" />
+
+		</VerticalStackLayout>
+	</ScrollView>
+
+</ContentPage>
