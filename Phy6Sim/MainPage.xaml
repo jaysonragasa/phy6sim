@@ -51,6 +51,12 @@
 				Clicked="Sim5Button_Clicked"
 				HorizontalOptions="Fill" />
 
+			<Button
+				x:Name="Sim6Button"
+				Text="6. Fish Tank Simulation"
+				Clicked="Sim6Button_Clicked"
+				HorizontalOptions="Fill" />
+
 		</VerticalStackLayout>
 	</ScrollView>
 

@@ -12,6 +12,7 @@
 			Routing.RegisterRoute(nameof(RagdollPage), typeof(RagdollPage));
 			Routing.RegisterRoute(nameof(ChainPhysicsPage), typeof(ChainPhysicsPage));
 			Routing.RegisterRoute(nameof(StarfieldPage), typeof(StarfieldPage));
+			Routing.RegisterRoute(nameof(FishSimPage), typeof(FishSimPage));
 		}
     }
 }
